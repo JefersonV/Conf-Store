@@ -1,11 +1,16 @@
-import React from 'react'
+import React from 'react';
+import '../styles/components/Payment.css';
 
-const Payment = () => {
+const Payments = () => {
   return (
-    <div>
-      Payment
+    <div className="Payment">
+      <div className="Payment-content">
+        <h3>Order Summary:</h3>
+        <div className="Payment-button">Payment button with Paypal</div>
+      </div>
+      <div></div>
     </div>
-  )
-}
+  );
+};
 
-export default Payment;
+export default Payments;
