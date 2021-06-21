@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 import '../styles/components/Information.css';
 
 const Information = () => {
@@ -60,7 +62,12 @@ const Information = () => {
         </div>
         <div className="Information-buttons">
           <div className="Information-back">Go Back</div>
-          <div className="Information-next">Pay</div>
+          
+          <div className="Information-next">
+          <Link to="/checkout/payment">
+            Pay
+          </Link>
+          </div>
         </div>
       </div>
       <div className="Information-sidebar">
