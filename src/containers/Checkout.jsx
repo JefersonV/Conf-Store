@@ -23,27 +23,8 @@ const Checkout = () => {
   return (
     <>
       <Helmet>
-      <meta name="twitter:card" content="summary_large_image"/>
-      <meta name="twitter:site" content="@JefersonV"/>
-      <meta name="twitter:creator" content="@JefersonV"/>
-      <meta name="twitter:title" content="Platzi Conf Store"/>
-      <meta name="twitter:description" content="Platzi Conf Store"/>
-      <meta
-        name="twitter:image"
-        content="https://s3.amazonaws.com/gndx.dev/gndxdev.png"
-      />
-      <meta property="og:title" content="Platzi Conf Store"/>
-      <meta property="og:description" content="Platzi Conf Store"/>
-      <meta
-        property="og:image"
-        content="https://s3.amazonaws.com/gndx.dev/gndxdev.png"
-      />
-      <meta property="og:url" content="platzistore.xyz" />
-      <meta property="og:site_name" content="Platzi Conf Store" />
-      <meta property="og:locale" content="es_ES" />
-      <meta property="og:type" content="article" />
-      <meta property="fb:app_id" content="ID_APP_FACEBOOK" />
-    </Helmet>
+        <title>Lista de Pedidos</title>
+      </Helmet>
     <div className="Checkout">
       <div className="Checkout-content">
         {cart.length > 0 ? <h3>Lista de Pedidos:</h3>: <h3>Sin Pedidos ...</h3>}
